@@ -32,5 +32,30 @@ namespace Entidades
             }
             return v_return;
         }
+
+        public static double Operar(Numero p_num1, Numero p_num2, string p_operador)
+        {
+            double v_return = 0;
+            char valid_op;
+            if (char.TryParse(p_operador, out valid_op))
+            {
+                switch (ValidarOperador(valid_op))
+                {
+                    case "+":
+                        v_return = p_num1 + p_num2;
+                        break;
+                    case "-":
+                        v_return = p_num1 - p_num2;
+                        break;
+                    case "*":
+                        v_return = p_num1 * p_num2;
+                        break;
+                    case "/":
+                        v_return = p_num1 / p_num2;
+                        break;
+                }
+            }
+            return v_return;
+        }
     }
 }
