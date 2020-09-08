@@ -11,6 +11,11 @@ namespace Entidades
         static void Main(string[] args)
         {
 
+            int rt = 1 + 10;
+
+            Console.WriteLine(rt);
+
+            Console.ReadKey();
         }
     }
 }

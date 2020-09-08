@@ -1,0 +1,2 @@
+C:\Users\carlo\OneDrive\Escritorio\Programacion 2\tp_laboratorio_2\Trabajo Practico\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\carlo\OneDrive\Escritorio\Programacion 2\tp_laboratorio_2\Trabajo Practico\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache

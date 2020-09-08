@@ -1,4 +1,5 @@
 ﻿using System;
+using System.CodeDom;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -88,6 +89,23 @@ namespace Entidades
                 v_return = v_return + a[i];
             }
             return v_return;
+        }
+
+        public static double operator +(Numero p_numA, Numero p_numb)
+        {
+            return p_numA.numero + p_numb.numero;
+        }
+        public static double operator -(Numero p_numA, Numero p_numb)
+        {
+            return p_numA.numero - p_numb.numero;
+        }
+        public static double operator *(Numero p_numA, Numero p_numb)
+        {
+            return p_numA.numero * p_numb.numero;
+        }
+        public static double operator /(Numero p_numA, Numero p_numb)
+        {
+            return p_numA.numero / p_numb.numero;
         }
     }
 }
