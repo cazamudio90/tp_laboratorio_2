@@ -105,7 +105,17 @@ namespace Entidades
         }
         public static double operator /(Numero p_numA, Numero p_numb)
         {
-            return p_numA.numero / p_numb.numero;
+            double v_return;
+
+            if (p_numb.numero == 0)
+            {
+                v_return = double.MinValue;
+            }
+            else
+            {
+                v_return = p_numA.numero / p_numb.numero;
+            }
+            return v_return;
         }
     }
 }
