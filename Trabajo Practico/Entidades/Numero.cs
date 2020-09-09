@@ -10,7 +10,7 @@ namespace Entidades
     {
         double numero;
 
-        Numero()
+        public Numero()
         {
             numero = 0;
         }
@@ -35,9 +35,9 @@ namespace Entidades
         private static bool EsBinario(string p_binario)
         {
             bool v_return = true;
-            for (int i = 0; i < p_binario.Length; i++)
+            for (int i = 1; i < p_binario.Length; i++)
             {
-                if (p_binario.Substring(i) != "0" && p_binario.Substring(i) != "1")
+                if (p_binario.Substring(i, 1 ) != "0" && p_binario.Substring(i, 1) != "1")
                 {
                     v_return = false;
                     break;
@@ -50,7 +50,7 @@ namespace Entidades
         {
 
             int num;
-            string v_return = "Valor invalido";
+            string v_return = null;
             int binVal;
             int decVal = 0;
             int baseVal = 1;
@@ -69,6 +69,10 @@ namespace Entidades
                 }
                 v_return = decVal.ToString();
             }
+            else
+            {
+                v_return = "Valor invalido";
+            }
             return v_return;
         }
 
@@ -76,7 +80,7 @@ namespace Entidades
         {
             int[] a = new int[10];
             int i;
-            string v_return = "Valor invalido";
+            string v_return = null;
 
             for (i = 0; p_num > 0; i++)
             {
@@ -86,6 +90,10 @@ namespace Entidades
             for (i = i - 1; i >= 0; i--)
             {
                 v_return = v_return + a[i];
+            }
+            if (v_return == null)
+            {
+                v_return = "Valor invalido";
             }
             return v_return;
         }

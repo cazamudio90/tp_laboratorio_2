@@ -42,18 +42,20 @@
             // txtNum1
             // 
             this.txtNum1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNum1.Location = new System.Drawing.Point(142, 67);
+            this.txtNum1.Location = new System.Drawing.Point(167, 76);
             this.txtNum1.Name = "txtNum1";
             this.txtNum1.Size = new System.Drawing.Size(102, 62);
             this.txtNum1.TabIndex = 0;
+            this.txtNum1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txtNum2
             // 
             this.txtNum2.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNum2.Location = new System.Drawing.Point(538, 67);
+            this.txtNum2.Location = new System.Drawing.Point(563, 76);
             this.txtNum2.Name = "txtNum2";
             this.txtNum2.Size = new System.Drawing.Size(102, 62);
             this.txtNum2.TabIndex = 1;
+            this.txtNum2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // cbOperaciones
             // 
@@ -65,14 +67,14 @@
             "-",
             "/",
             "*"});
-            this.cbOperaciones.Location = new System.Drawing.Point(340, 67);
+            this.cbOperaciones.Location = new System.Drawing.Point(365, 76);
             this.cbOperaciones.Name = "cbOperaciones";
             this.cbOperaciones.Size = new System.Drawing.Size(102, 63);
             this.cbOperaciones.TabIndex = 2;
             // 
             // btnOperar
             // 
-            this.btnOperar.Location = new System.Drawing.Point(98, 144);
+            this.btnOperar.Location = new System.Drawing.Point(123, 153);
             this.btnOperar.Name = "btnOperar";
             this.btnOperar.Size = new System.Drawing.Size(146, 52);
             this.btnOperar.TabIndex = 3;
@@ -82,7 +84,7 @@
             // 
             // btnLimpiar
             // 
-            this.btnLimpiar.Location = new System.Drawing.Point(318, 144);
+            this.btnLimpiar.Location = new System.Drawing.Point(343, 153);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(146, 52);
             this.btnLimpiar.TabIndex = 4;
@@ -92,7 +94,7 @@
             // 
             // btnCerrar
             // 
-            this.btnCerrar.Location = new System.Drawing.Point(538, 144);
+            this.btnCerrar.Location = new System.Drawing.Point(563, 153);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(146, 52);
             this.btnCerrar.TabIndex = 5;
@@ -102,27 +104,29 @@
             // 
             // btnConvBinario
             // 
-            this.btnConvBinario.Location = new System.Drawing.Point(182, 221);
+            this.btnConvBinario.Location = new System.Drawing.Point(207, 230);
             this.btnConvBinario.Name = "btnConvBinario";
             this.btnConvBinario.Size = new System.Drawing.Size(146, 52);
             this.btnConvBinario.TabIndex = 6;
             this.btnConvBinario.Text = "Convertir a Binario";
             this.btnConvBinario.UseVisualStyleBackColor = true;
+            this.btnConvBinario.Click += new System.EventHandler(this.btnConvBinario_Click);
             // 
             // btnConvDecimal
             // 
-            this.btnConvDecimal.Location = new System.Drawing.Point(429, 221);
+            this.btnConvDecimal.Location = new System.Drawing.Point(454, 230);
             this.btnConvDecimal.Name = "btnConvDecimal";
             this.btnConvDecimal.Size = new System.Drawing.Size(146, 52);
             this.btnConvDecimal.TabIndex = 7;
             this.btnConvDecimal.Text = "Convertir a Decimal";
             this.btnConvDecimal.UseVisualStyleBackColor = true;
+            this.btnConvDecimal.Click += new System.EventHandler(this.btnConvDecimal_Click);
             // 
             // lblResultado
             // 
             this.lblResultado.AutoSize = true;
             this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResultado.Location = new System.Drawing.Point(684, 9);
+            this.lblResultado.Location = new System.Drawing.Point(640, 9);
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(0, 55);
             this.lblResultado.TabIndex = 8;
@@ -131,7 +135,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 359);
+            this.ClientSize = new System.Drawing.Size(832, 359);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.btnConvDecimal);
             this.Controls.Add(this.btnConvBinario);
