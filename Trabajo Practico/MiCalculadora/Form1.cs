@@ -27,7 +27,7 @@ namespace MiCalculadora
 
         private void btnOperar_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void btnLimpiar_Click(object sender, EventArgs e)
