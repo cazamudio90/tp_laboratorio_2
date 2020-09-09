@@ -19,5 +19,28 @@ namespace MiCalculadora
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            this.txtNum1.Height = 55;
+        }
+
+        private void btnOperar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnLimpiar_Click(object sender, EventArgs e)
+        {
+            this.txtNum1.Text = null;
+            this.txtNum2.Text = null;
+            this.cbOperaciones.SelectedItem = null;
+            this.lblResultado = null;
+        }
+
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
