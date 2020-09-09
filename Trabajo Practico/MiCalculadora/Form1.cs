@@ -22,7 +22,7 @@ namespace MiCalculadora
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            this.txtNum1.Height = 55;
+           
         }
 
         private void btnOperar_Click(object sender, EventArgs e)
