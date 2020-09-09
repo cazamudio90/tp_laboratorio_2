@@ -25,19 +25,27 @@ namespace MiCalculadora
            
         }
 
-        private void btnOperar_Click(object sender, EventArgs e)
+        private static string Operar(string p_num1, string p_num2, string p_operacion)
         {
             double v_resultado;
             Numero num1 = new Numero();
             Numero num2 = new Numero();
+            num1.SetNumero(p_num1);
+            num2.SetNumero(p_num2);
+
+            v_resultado = Calculadora.Operar(num1, num2, p_operacion);
+
+            return v_resultado.ToString();
+        }
+
+        private void btnOperar_Click(object sender, EventArgs e)
+        {
+            string v_resultado = null;
             string operacion = this.cbOperaciones.SelectedItem.ToString();
-            num1.SetNumero(this.txtNum1.Text);
-            num2.SetNumero(this.txtNum2.Text);
 
+            v_resultado = Operar(this.txtNum1.Text, this.txtNum2.Text, operacion);
 
-            v_resultado = Calculadora.Operar(num1, num2, operacion);
-
-            this.lblResultado.Text = v_resultado.ToString();
+            this.lblResultado.Text = v_resultado;
         }
 
         private void btnLimpiar_Click(object sender, EventArgs e)
