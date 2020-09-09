@@ -59,6 +59,12 @@
             // 
             // cbOperaciones
             // 
+            this.cbOperaciones.AutoCompleteCustomSource.AddRange(new string[] {
+            "+",
+            "-",
+            "/",
+            "*"});
+            this.cbOperaciones.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbOperaciones.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbOperaciones.FormattingEnabled = true;
             this.cbOperaciones.ItemHeight = 55;
