@@ -33,13 +33,14 @@ namespace Entidades
         /// <summary>
         /// ReadOnly: Retornará el tamaño
         /// </summary>
-        public  ETamanio Tamanio { get; set; }
+        public  ETamanio Tamanio { get; }
 
         /// <summary>
         /// Publica todos los datos del Vehiculo.
         /// </summary>
         /// <returns></returns>
-        public abstract string Mostrar();
+        /// 
+        public virtual string Mostrar() => (string)this;
         /*{
             return "chasis: " + this.chasis + "Color: " + this.color +  "Marca: " + this.marca + "Tamanio: " + this.Tamanio;
         }*/
