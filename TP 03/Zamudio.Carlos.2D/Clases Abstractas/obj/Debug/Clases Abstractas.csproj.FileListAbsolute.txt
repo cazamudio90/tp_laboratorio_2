@@ -1,0 +1,6 @@
+C:\Users\carlo\OneDrive\Escritorio\Programacion 2\tp_laboratorio_2\TP 03\Zamudio.Carlos.2D\Clases Abstractas\obj\Debug\Clases Abstractas.csprojAssemblyReference.cache
+C:\Users\carlo\OneDrive\Escritorio\Programacion 2\tp_laboratorio_2\TP 03\Zamudio.Carlos.2D\Clases Abstractas\obj\Debug\Clases Abstractas.csproj.CoreCompileInputs.cache
+C:\Users\carlo\OneDrive\Escritorio\Programacion 2\tp_laboratorio_2\TP 03\Zamudio.Carlos.2D\Clases Abstractas\bin\Debug\Clases Abstractas.dll
+C:\Users\carlo\OneDrive\Escritorio\Programacion 2\tp_laboratorio_2\TP 03\Zamudio.Carlos.2D\Clases Abstractas\bin\Debug\Clases Abstractas.pdb
+C:\Users\carlo\OneDrive\Escritorio\Programacion 2\tp_laboratorio_2\TP 03\Zamudio.Carlos.2D\Clases Abstractas\obj\Debug\Clases Abstractas.dll
+C:\Users\carlo\OneDrive\Escritorio\Programacion 2\tp_laboratorio_2\TP 03\Zamudio.Carlos.2D\Clases Abstractas\obj\Debug\Clases Abstractas.pdb
