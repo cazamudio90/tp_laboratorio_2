@@ -1,0 +1,9 @@
+C:\Users\carlo\OneDrive\Escritorio\Programacion 2\tp_laboratorio_2\TP 03\Zamudio.Carlos.2D\Archivos\obj\Debug\Archivos.csprojAssemblyReference.cache
+C:\Users\carlo\OneDrive\Escritorio\Programacion 2\tp_laboratorio_2\TP 03\Zamudio.Carlos.2D\Archivos\obj\Debug\Archivos.csproj.CoreCompileInputs.cache
+C:\Users\carlo\OneDrive\Escritorio\Programacion 2\tp_laboratorio_2\TP 03\Zamudio.Carlos.2D\Archivos\bin\Debug\Archivos.dll
+C:\Users\carlo\OneDrive\Escritorio\Programacion 2\tp_laboratorio_2\TP 03\Zamudio.Carlos.2D\Archivos\bin\Debug\Archivos.pdb
+C:\Users\carlo\OneDrive\Escritorio\Programacion 2\tp_laboratorio_2\TP 03\Zamudio.Carlos.2D\Archivos\bin\Debug\Excepciones.dll
+C:\Users\carlo\OneDrive\Escritorio\Programacion 2\tp_laboratorio_2\TP 03\Zamudio.Carlos.2D\Archivos\bin\Debug\Excepciones.pdb
+C:\Users\carlo\OneDrive\Escritorio\Programacion 2\tp_laboratorio_2\TP 03\Zamudio.Carlos.2D\Archivos\obj\Debug\Archivos.csproj.CopyComplete
+C:\Users\carlo\OneDrive\Escritorio\Programacion 2\tp_laboratorio_2\TP 03\Zamudio.Carlos.2D\Archivos\obj\Debug\Archivos.dll
+C:\Users\carlo\OneDrive\Escritorio\Programacion 2\tp_laboratorio_2\TP 03\Zamudio.Carlos.2D\Archivos\obj\Debug\Archivos.pdb

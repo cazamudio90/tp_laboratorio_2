@@ -1,0 +1,11 @@
+C:\Users\carlo\OneDrive\Escritorio\Programacion 2\tp_laboratorio_2\TP 03\Zamudio.Carlos.2D\Clases Instanciables\bin\Debug\Clases Instanciables.dll
+C:\Users\carlo\OneDrive\Escritorio\Programacion 2\tp_laboratorio_2\TP 03\Zamudio.Carlos.2D\Clases Instanciables\bin\Debug\Clases Instanciables.pdb
+C:\Users\carlo\OneDrive\Escritorio\Programacion 2\tp_laboratorio_2\TP 03\Zamudio.Carlos.2D\Clases Instanciables\bin\Debug\Clases Abstractas.dll
+C:\Users\carlo\OneDrive\Escritorio\Programacion 2\tp_laboratorio_2\TP 03\Zamudio.Carlos.2D\Clases Instanciables\bin\Debug\Excepciones.dll
+C:\Users\carlo\OneDrive\Escritorio\Programacion 2\tp_laboratorio_2\TP 03\Zamudio.Carlos.2D\Clases Instanciables\bin\Debug\Clases Abstractas.pdb
+C:\Users\carlo\OneDrive\Escritorio\Programacion 2\tp_laboratorio_2\TP 03\Zamudio.Carlos.2D\Clases Instanciables\bin\Debug\Excepciones.pdb
+C:\Users\carlo\OneDrive\Escritorio\Programacion 2\tp_laboratorio_2\TP 03\Zamudio.Carlos.2D\Clases Instanciables\obj\Debug\Clases Instanciables.csprojAssemblyReference.cache
+C:\Users\carlo\OneDrive\Escritorio\Programacion 2\tp_laboratorio_2\TP 03\Zamudio.Carlos.2D\Clases Instanciables\obj\Debug\Clases Instanciables.csproj.CoreCompileInputs.cache
+C:\Users\carlo\OneDrive\Escritorio\Programacion 2\tp_laboratorio_2\TP 03\Zamudio.Carlos.2D\Clases Instanciables\obj\Debug\Clases Instanciables.csproj.CopyComplete
+C:\Users\carlo\OneDrive\Escritorio\Programacion 2\tp_laboratorio_2\TP 03\Zamudio.Carlos.2D\Clases Instanciables\obj\Debug\Clases Instanciables.dll
+C:\Users\carlo\OneDrive\Escritorio\Programacion 2\tp_laboratorio_2\TP 03\Zamudio.Carlos.2D\Clases Instanciables\obj\Debug\Clases Instanciables.pdb

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Clases_Abstractas
+namespace Excepciones
 {
-    class NacionalidadInvalidaException : Exception
+    public class NacionalidadInvalidaException : Exception
     {
         public NacionalidadInvalidaException(string mensaje) : base(mensaje)
         {

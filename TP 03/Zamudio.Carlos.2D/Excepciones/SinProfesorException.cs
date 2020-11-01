@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Clases_Abstractas
+namespace Excepciones
 {
-    class DniInvalidoException : Exception
+    public class SinProfesorException : Exception
     {
-        public DniInvalidoException(string mensaje) : base(mensaje)
+        public SinProfesorException(string mensaje) : base(mensaje)
         {
 
         }

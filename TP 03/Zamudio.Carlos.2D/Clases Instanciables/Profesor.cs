@@ -9,13 +9,15 @@ namespace Clases_Instanciables
 {
     public sealed class Profesor : Universitario
     {
-        private Queue<EClase> clasesDelDia;
-        private static Random random;
+        Queue<EClase> clasesDelDia;
+        static Random random;
+
+        public Queue<EClase> ClasesDelDia { get => clasesDelDia; set => clasesDelDia = value; }
 
         public Profesor(string nombre, string apellido, ENacionalidad nacionalidad, int dni, int legajo)
             : base(nombre, apellido, nacionalidad, dni, legajo)
         {
-            this.clasesDelDia = new Queue<EClase>();
+            this.ClasesDelDia = new Queue<EClase>();
             randomClases();
         }
 
@@ -33,7 +35,7 @@ namespace Clases_Instanciables
         {
             StringBuilder sb = new StringBuilder();
             sb.Append("CLASES DEL DÍA:\n");
-            foreach (EClase clase in this.clasesDelDia)
+            foreach (EClase clase in this.ClasesDelDia)
             {
                 sb.AppendFormat("{0}\n", clase);
             }
@@ -48,14 +50,14 @@ namespace Clases_Instanciables
         {
             for (int i = 0; i < 2; i++)
             {
-                this.clasesDelDia.Enqueue( (EClase)random.Next(0, Enum.GetValues(typeof(EClase)).Length) );
+                this.ClasesDelDia.Enqueue( (EClase)random.Next(0, Enum.GetValues(typeof(EClase)).Length) );
             }
         }
 
         public static bool operator ==(Profesor i, EClase clase)
         {
             bool v_return = false;
-            foreach (EClase claseAux in i.clasesDelDia)
+            foreach (EClase claseAux in i.ClasesDelDia)
             {
                 if (claseAux.Equals(clase))
                 {

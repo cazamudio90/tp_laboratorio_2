@@ -10,7 +10,7 @@ namespace Clases_Instanciables
 {
     public class Jornada
     {
-        Profesor Profesor;
+        Profesor Instructor;
         EClase Clase;
         List<Alumno> Alumnos;
 
@@ -23,8 +23,8 @@ namespace Clases_Instanciables
         }
         public Profesor Profesor1 
         { 
-            get { return Profesor; }
-            set { this.Profesor = value; }
+            get { return Instructor; }
+            set { this.Instructor = value; }
         }
         public EClase Clase1 
         {
@@ -70,26 +70,5 @@ namespace Clases_Instanciables
                 
             return sb.ToString();
         }
-
-        public static bool guardar(Jornada jornada)
-        {
-            bool v_return = false;
-            StringBuilder sb = new StringBuilder();
-
-            TextWriter txt = new StreamWriter(AppDomain.CurrentDomain.BaseDirectory + "\\Jornada.txt");
-
-            sb.AppendLine("Jornada");
-            sb.Append(jornada.ToString());
-
-            txt.Write(sb.ToString());
-            txt.Close();
-
-            if (txt !=  null)
-            {
-                v_return = true;
-            }
-            return v_return;
-        }
-
     }
 }
